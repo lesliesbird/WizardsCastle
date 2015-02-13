@@ -1,0 +1,48 @@
+# Project: WizardsCastle
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o classes.o defines.o fancy.o functions.o intro.o combat.o $(RES)
+LINKOBJ  = main.o classes.o defines.o fancy.o functions.o intro.o combat.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -lwinmm  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = WizardsCastle.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before WizardsCastle.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "WizardsCastle.exe" $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+classes.o: classes.c
+	$(CC) -c classes.c -o classes.o $(CFLAGS)
+
+defines.o: defines.c
+	$(CC) -c defines.c -o defines.o $(CFLAGS)
+
+fancy.o: fancy.c
+	$(CC) -c fancy.c -o fancy.o $(CFLAGS)
+
+functions.o: functions.c
+	$(CC) -c functions.c -o functions.o $(CFLAGS)
+
+intro.o: intro.c
+	$(CC) -c intro.c -o intro.o $(CFLAGS)
+
+combat.o: combat.c
+	$(CC) -c combat.c -o combat.o $(CFLAGS)

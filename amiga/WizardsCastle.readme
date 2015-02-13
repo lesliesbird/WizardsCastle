@@ -1,0 +1,23 @@
+Short:        Classic text-based RPG, recover Orb of Zot.
+Uploader:     amiga1@comcast.net (Leslie S. Bird)
+Author:       Leslie S. Bird
+Type:         game/role
+Version:      1.0
+Architecture: m68k-amigaos >= 3.0
+Distribution: Aminet
+
+The Wizard's Castle, aka Orb Of Zot is a classic text adventure
+that has been around in various forms since 1980. Originally in
+BASIC, I have rewritten it in C for Amiga and other systems. 
+
+The game is turn based and takes place in an 8 x 8 x 8 dungeon
+that is randomly stocked with monsters, treasure and various other
+items. Goals involve fighting monsters, recovering magic items, avoiding
+traps and rescuing various persons, both evil and good.
+
+To install, simply unpack the archive and either click on the game
+icon, or run it from a shell window. 
+
+This program was compiled with the DICE C compiler. Source code is
+included.
+

@@ -1,0 +1,2 @@
+To compile this, you will need to install the Android NDK as a standalone toolchain. It runs from the terminal only, so you will need to install a terminal program from the Play Store. I do believe your device will need to be rooted for it to execute properly.
+

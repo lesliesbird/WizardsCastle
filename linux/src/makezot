@@ -1,0 +1,12 @@
+rm *.o
+gcc -c main.c
+gcc -c classes.c
+gcc -c combat.c
+gcc -c defines.c
+gcc -c fancy.c
+gcc -c functions.c
+gcc -c getch.c
+gcc -c intro.c
+gcc main.o classes.o combat.o defines.o fancy.o functions.o getch.o intro.o -o wizardscastle
+
+

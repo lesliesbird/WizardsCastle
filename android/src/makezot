@@ -1,0 +1,12 @@
+rm *.o
+arm-linux-androideabi-gcc -c main.c
+arm-linux-androideabi-gcc -c classes.c
+arm-linux-androideabi-gcc -c combat.c
+arm-linux-androideabi-gcc -c defines.c
+arm-linux-androideabi-gcc -c fancy.c
+arm-linux-androideabi-gcc -c functions.c
+arm-linux-androideabi-gcc -c getch.c
+arm-linux-androideabi-gcc -c intro.c
+arm-linux-androideabi-gcc main.o classes.o combat.o defines.o fancy.o functions.o getch.o intro.o -o wizardscastle -pie -fPIE
+
+
