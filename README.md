@@ -2,7 +2,7 @@ The Wizard's Castle, aka Orb Of Zot is a classic text adventure that has been ar
 
 The game is turn based and takes place in an 8 x 8 x 8 dungeon that is randomly stocked with monsters, treasure and various other items. Goals involve fighting monsters, recovering magic items, avoiding traps and rescuing various persons, both evil and good.
 
-HISTORY
+#HISTORY
 
 Many cycles ago, I owned a Commodore 128. The 128 was the last and greatest of the 8-bit era of computing and had many different capabilities; one of which was a full implementation of CP/M. CP/M was well on its way out, while MS-DOS was on its way in, which made locating CP/M software difficult. Fortunately, I had a friend with an Osborne with which to trade software. One of the disks had a BASIC game called ZOT.BAS, otherwise known as The Wizard's Castle.
 
